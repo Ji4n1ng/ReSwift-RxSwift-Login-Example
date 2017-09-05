@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951019A81F5B91AA0029E28C /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019A71F5B91AA0029E28C /* Observable+ObjectMapper.swift */; };
+		951019AA1F5BAEE30029E28C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019A91F5BAEE30029E28C /* Config.swift */; };
+		951019B31F5BB6E70029E28C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019B21F5BB6E70029E28C /* MainViewController.swift */; };
+		951019BE1F5BB84F0029E28C /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019BD1F5BB84F0029E28C /* Routes.swift */; };
+		951019C01F5BF8A60029E28C /* LoginViewRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019BF1F5BF8A60029E28C /* LoginViewRoutable.swift */; };
+		951019C21F5C1CD20029E28C /* MainViewRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019C11F5C1CD20029E28C /* MainViewRoutable.swift */; };
+		951019C51F5C21940029E28C /* NavigationController+CompletionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019C41F5C21940029E28C /* NavigationController+CompletionBlock.swift */; };
+		951019C81F5C4F320029E28C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019C71F5C4F320029E28C /* Log.swift */; };
+		951019CA1F5C51940029E28C /* ToolsInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951019C91F5C51940029E28C /* ToolsInbox.swift */; };
+		9564ED001F5C692600102669 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564ECFF1F5C692600102669 /* String+Subscript.swift */; };
+		95895C411F5AB59600B1DBEC /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95895C401F5AB59600B1DBEC /* AppReducer.swift */; };
+		95895C431F5AB5CF00B1DBEC /* AuthenticationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95895C421F5AB5CF00B1DBEC /* AuthenticationReducer.swift */; };
+		95895C451F5AC22400B1DBEC /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95895C441F5AC22400B1DBEC /* SwiftNotice.swift */; };
+		95895C4F1F5B0E8C00B1DBEC /* AuthenticationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95895C4E1F5B0E8C00B1DBEC /* AuthenticationAPI.swift */; };
+		95895C521F5B11D400B1DBEC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95895C511F5B11D400B1DBEC /* AuthenticationService.swift */; };
 		95A5FEEE1F5A9E52006A50F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FEED1F5A9E52006A50F1 /* AppDelegate.swift */; };
-		95A5FEF01F5A9E52006A50F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FEEF1F5A9E52006A50F1 /* ViewController.swift */; };
 		95A5FEF31F5A9E52006A50F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5FEF11F5A9E52006A50F1 /* Main.storyboard */; };
 		95A5FEF51F5A9E52006A50F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A5FEF41F5A9E52006A50F1 /* Assets.xcassets */; };
 		95A5FEF81F5A9E52006A50F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5FEF61F5A9E52006A50F1 /* LaunchScreen.storyboard */; };
+		95A5FF071F5A9F80006A50F1 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF061F5A9F80006A50F1 /* UserInfoModel.swift */; };
+		95A5FF091F5AA008006A50F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF081F5AA008006A50F1 /* LoginViewController.swift */; };
+		95A5FF0B1F5AA034006A50F1 /* AuthenticationActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF0A1F5AA034006A50F1 /* AuthenticationActions.swift */; };
+		95A5FF0E1F5AA053006A50F1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF0C1F5AA053006A50F1 /* State.swift */; };
+		95A5FF0F1F5AA053006A50F1 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF0D1F5AA053006A50F1 /* AuthenticationState.swift */; };
+		95A5FF121F5AB1FE006A50F1 /* ORMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5FF111F5AB1FE006A50F1 /* ORMError.swift */; };
+		95D1F71D1F5D430A006C87F3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1F71C1F5D430A006C87F3 /* UserService.swift */; };
+		95D1F71F1F5D433A006C87F3 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1F71E1F5D433A006C87F3 /* UserAPI.swift */; };
+		95D1F7211F5D47A7006C87F3 /* UserActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1F7201F5D47A7006C87F3 /* UserActions.swift */; };
+		95D1F7231F5D48AF006C87F3 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1F7221F5D48AF006C87F3 /* UserState.swift */; };
+		95D1F7271F5D912F006C87F3 /* UserReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1F7261F5D912F006C87F3 /* UserReducer.swift */; };
+		E43E416B7FA58DD076F5CFA3 /* Pods_ReSwiftLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73068E5C671EB9585C8BCE99 /* Pods_ReSwiftLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CBD85058C00592A5134905B /* Pods-ReSwiftLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftLogin/Pods-ReSwiftLogin.release.xcconfig"; sourceTree = "<group>"; };
+		73068E5C671EB9585C8BCE99 /* Pods_ReSwiftLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReSwiftLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951019A71F5B91AA0029E28C /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		951019A91F5BAEE30029E28C /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		951019B21F5BB6E70029E28C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		951019BD1F5BB84F0029E28C /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		951019BF1F5BF8A60029E28C /* LoginViewRoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewRoutable.swift; sourceTree = "<group>"; };
+		951019C11F5C1CD20029E28C /* MainViewRoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewRoutable.swift; sourceTree = "<group>"; };
+		951019C41F5C21940029E28C /* NavigationController+CompletionBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationController+CompletionBlock.swift"; sourceTree = "<group>"; };
+		951019C71F5C4F320029E28C /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		951019C91F5C51940029E28C /* ToolsInbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInbox.swift; sourceTree = "<group>"; };
+		9564ECFF1F5C692600102669 /* String+Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Subscript.swift"; sourceTree = "<group>"; };
+		95895C401F5AB59600B1DBEC /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		95895C421F5AB5CF00B1DBEC /* AuthenticationReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationReducer.swift; sourceTree = "<group>"; };
+		95895C441F5AC22400B1DBEC /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		95895C4E1F5B0E8C00B1DBEC /* AuthenticationAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationAPI.swift; sourceTree = "<group>"; };
+		95895C511F5B11D400B1DBEC /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		95A5FEEA1F5A9E52006A50F1 /* ReSwiftLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSwiftLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A5FEED1F5A9E52006A50F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95A5FEEF1F5A9E52006A50F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95A5FEF21F5A9E52006A50F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95A5FEF41F5A9E52006A50F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A5FEF71F5A9E52006A50F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A5FEF91F5A9E52006A50F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A5FF061F5A9F80006A50F1 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		95A5FF081F5AA008006A50F1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		95A5FF0A1F5AA034006A50F1 /* AuthenticationActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationActions.swift; sourceTree = "<group>"; };
+		95A5FF0C1F5AA053006A50F1 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		95A5FF0D1F5AA053006A50F1 /* AuthenticationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
+		95A5FF111F5AB1FE006A50F1 /* ORMError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORMError.swift; sourceTree = "<group>"; };
+		95D1F71C1F5D430A006C87F3 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		95D1F71E1F5D433A006C87F3 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		95D1F7201F5D47A7006C87F3 /* UserActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActions.swift; sourceTree = "<group>"; };
+		95D1F7221F5D48AF006C87F3 /* UserState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		95D1F7261F5D912F006C87F3 /* UserReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserReducer.swift; sourceTree = "<group>"; };
+		CC26D47F09FFA52E086AA444 /* Pods-ReSwiftLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwiftLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwiftLogin/Pods-ReSwiftLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43E416B7FA58DD076F5CFA3 /* Pods_ReSwiftLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951019A61F5B90890029E28C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				951019C41F5C21940029E28C /* NavigationController+CompletionBlock.swift */,
+				951019A71F5B91AA0029E28C /* Observable+ObjectMapper.swift */,
+				9564ECFF1F5C692600102669 /* String+Subscript.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		951019BC1F5BB83B0029E28C /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				951019BD1F5BB84F0029E28C /* Routes.swift */,
+				951019BF1F5BF8A60029E28C /* LoginViewRoutable.swift */,
+				951019C11F5C1CD20029E28C /* MainViewRoutable.swift */,
+			);
+			name = Routes;
+			sourceTree = "<group>";
+		};
+		951019C31F5C1DC00029E28C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				95895C441F5AC22400B1DBEC /* SwiftNotice.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		951019C61F5C4F1B0029E28C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				951019C91F5C51940029E28C /* ToolsInbox.swift */,
+				951019C71F5C4F320029E28C /* Log.swift */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		95895C461F5AD49400B1DBEC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				95895C4E1F5B0E8C00B1DBEC /* AuthenticationAPI.swift */,
+				95D1F71E1F5D433A006C87F3 /* UserAPI.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		95895C501F5B11AC00B1DBEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				95895C511F5B11D400B1DBEC /* AuthenticationService.swift */,
+				95D1F71C1F5D430A006C87F3 /* UserService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		9599EA321F5E3FD0005F677E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FEF41F5A9E52006A50F1 /* Assets.xcassets */,
+				95A5FEF61F5A9E52006A50F1 /* LaunchScreen.storyboard */,
+				95A5FEF91F5A9E52006A50F1 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		95A5FEE11F5A9E52006A50F1 = {
 			isa = PBXGroup;
 			children = (
 				95A5FEEC1F5A9E52006A50F1 /* ReSwiftLogin */,
 				95A5FEEB1F5A9E52006A50F1 /* Products */,
+				C420238ADEB88AD900F42A9F /* Pods */,
+				AA95BE954B1D39D02FAB1C38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +177,94 @@
 			isa = PBXGroup;
 			children = (
 				95A5FEED1F5A9E52006A50F1 /* AppDelegate.swift */,
-				95A5FEEF1F5A9E52006A50F1 /* ViewController.swift */,
+				951019A91F5BAEE30029E28C /* Config.swift */,
 				95A5FEF11F5A9E52006A50F1 /* Main.storyboard */,
-				95A5FEF41F5A9E52006A50F1 /* Assets.xcassets */,
-				95A5FEF61F5A9E52006A50F1 /* LaunchScreen.storyboard */,
-				95A5FEF91F5A9E52006A50F1 /* Info.plist */,
+				95895C461F5AD49400B1DBEC /* Networking */,
+				95895C501F5B11AC00B1DBEC /* Services */,
+				95A5FEFF1F5A9E95006A50F1 /* Models */,
+				95A5FF001F5A9E9C006A50F1 /* State */,
+				95A5FF011F5A9EA2006A50F1 /* Actions */,
+				95A5FF021F5A9EB0006A50F1 /* Reducers */,
+				95A5FF031F5A9EB5006A50F1 /* ViewControllers */,
+				951019BC1F5BB83B0029E28C /* Routes */,
+				95A5FF101F5AB1EE006A50F1 /* Error */,
+				951019A61F5B90890029E28C /* Extensions */,
+				951019C61F5C4F1B0029E28C /* Tool */,
+				951019C31F5C1DC00029E28C /* Vendor */,
+				9599EA321F5E3FD0005F677E /* Other */,
 			);
 			path = ReSwiftLogin;
+			sourceTree = "<group>";
+		};
+		95A5FEFF1F5A9E95006A50F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FF061F5A9F80006A50F1 /* UserInfoModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		95A5FF001F5A9E9C006A50F1 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FF0C1F5AA053006A50F1 /* State.swift */,
+				95A5FF0D1F5AA053006A50F1 /* AuthenticationState.swift */,
+				95D1F7221F5D48AF006C87F3 /* UserState.swift */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		95A5FF011F5A9EA2006A50F1 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FF0A1F5AA034006A50F1 /* AuthenticationActions.swift */,
+				95D1F7201F5D47A7006C87F3 /* UserActions.swift */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		95A5FF021F5A9EB0006A50F1 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				95895C401F5AB59600B1DBEC /* AppReducer.swift */,
+				95895C421F5AB5CF00B1DBEC /* AuthenticationReducer.swift */,
+				95D1F7261F5D912F006C87F3 /* UserReducer.swift */,
+			);
+			name = Reducers;
+			sourceTree = "<group>";
+		};
+		95A5FF031F5A9EB5006A50F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FF081F5AA008006A50F1 /* LoginViewController.swift */,
+				951019B21F5BB6E70029E28C /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95A5FF101F5AB1EE006A50F1 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				95A5FF111F5AB1FE006A50F1 /* ORMError.swift */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
+		AA95BE954B1D39D02FAB1C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73068E5C671EB9585C8BCE99 /* Pods_ReSwiftLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C420238ADEB88AD900F42A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC26D47F09FFA52E086AA444 /* Pods-ReSwiftLogin.debug.xcconfig */,
+				3CBD85058C00592A5134905B /* Pods-ReSwiftLogin.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95A5FEFC1F5A9E52006A50F1 /* Build configuration list for PBXNativeTarget "ReSwiftLogin" */;
 			buildPhases = (
+				E0D58FBCCB56338093AFFBA1 /* [CP] Check Pods Manifest.lock */,
 				95A5FEE61F5A9E52006A50F1 /* Sources */,
 				95A5FEE71F5A9E52006A50F1 /* Frameworks */,
 				95A5FEE81F5A9E52006A50F1 /* Resources */,
+				BA52EC92F0E65C9B3D0835E3 /* [CP] Embed Pods Frameworks */,
+				5A285FF52B578BE6431BEC93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +338,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A285FF52B578BE6431BEC93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftLogin/Pods-ReSwiftLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA52EC92F0E65C9B3D0835E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftLogin/Pods-ReSwiftLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwiftRouter/ReSwiftRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftUtilities/RxSwiftUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwiftRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReSwiftLogin/Pods-ReSwiftLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D58FBCCB56338093AFFBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReSwiftLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95A5FEE61F5A9E52006A50F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95A5FEF01F5A9E52006A50F1 /* ViewController.swift in Sources */,
+				951019A81F5B91AA0029E28C /* Observable+ObjectMapper.swift in Sources */,
+				95A5FF071F5A9F80006A50F1 /* UserInfoModel.swift in Sources */,
+				95D1F7211F5D47A7006C87F3 /* UserActions.swift in Sources */,
+				9564ED001F5C692600102669 /* String+Subscript.swift in Sources */,
+				95A5FF121F5AB1FE006A50F1 /* ORMError.swift in Sources */,
+				95895C431F5AB5CF00B1DBEC /* AuthenticationReducer.swift in Sources */,
+				95895C451F5AC22400B1DBEC /* SwiftNotice.swift in Sources */,
+				951019C51F5C21940029E28C /* NavigationController+CompletionBlock.swift in Sources */,
+				951019CA1F5C51940029E28C /* ToolsInbox.swift in Sources */,
+				95D1F7231F5D48AF006C87F3 /* UserState.swift in Sources */,
+				95895C4F1F5B0E8C00B1DBEC /* AuthenticationAPI.swift in Sources */,
+				951019C01F5BF8A60029E28C /* LoginViewRoutable.swift in Sources */,
+				951019C81F5C4F320029E28C /* Log.swift in Sources */,
+				951019B31F5BB6E70029E28C /* MainViewController.swift in Sources */,
+				95D1F7271F5D912F006C87F3 /* UserReducer.swift in Sources */,
+				95895C411F5AB59600B1DBEC /* AppReducer.swift in Sources */,
+				95A5FF091F5AA008006A50F1 /* LoginViewController.swift in Sources */,
 				95A5FEEE1F5A9E52006A50F1 /* AppDelegate.swift in Sources */,
+				95A5FF0F1F5AA053006A50F1 /* AuthenticationState.swift in Sources */,
+				951019BE1F5BB84F0029E28C /* Routes.swift in Sources */,
+				951019C21F5C1CD20029E28C /* MainViewRoutable.swift in Sources */,
+				95A5FF0E1F5AA053006A50F1 /* State.swift in Sources */,
+				95D1F71D1F5D430A006C87F3 /* UserService.swift in Sources */,
+				951019AA1F5BAEE30029E28C /* Config.swift in Sources */,
+				95A5FF0B1F5AA034006A50F1 /* AuthenticationActions.swift in Sources */,
+				95D1F71F1F5D433A006C87F3 /* UserAPI.swift in Sources */,
+				95895C521F5B11D400B1DBEC /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +574,7 @@
 		};
 		95A5FEFD1F5A9E52006A50F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC26D47F09FFA52E086AA444 /* Pods-ReSwiftLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8VX3ZLX5U;
@@ -274,6 +588,7 @@
 		};
 		95A5FEFE1F5A9E52006A50F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBD85058C00592A5134905B /* Pods-ReSwiftLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8VX3ZLX5U;
@@ -304,6 +619,7 @@
 				95A5FEFE1F5A9E52006A50F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
