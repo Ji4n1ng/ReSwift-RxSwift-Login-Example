@@ -2,7 +2,7 @@
 //  UserAction.swift
 //  ReSwiftLogin
 //
-//  Created by 王嘉宁 on 2017/9/4.
+//  Created by JianingWang on 2017/9/4.
 //  Copyright © 2017年 jianing. All rights reserved.
 //
 

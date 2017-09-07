@@ -2,7 +2,7 @@
 //  AccountAPI.swift
 //  WeekUp
 //
-//  Created by 王嘉宁 on 14/08/2017.
+//  Created by JianingWang on 14/08/2017.
 //  Copyright © 2017 Mazeal. All rights reserved.
 //
 

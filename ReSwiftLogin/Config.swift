@@ -2,7 +2,7 @@
 //  Config.swift
 //  ReSwiftLogin
 //
-//  Created by 王嘉宁 on 2017/9/3.
+//  Created by JianingWang on 2017/9/3.
 //  Copyright © 2017年 jianing. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import ReSwiftRouter
 struct Config {
     
     struct Test {
-        static let phone = "17865169805"
+        static let phone = "17812341234"
         static let password = "123456"
     }
     
